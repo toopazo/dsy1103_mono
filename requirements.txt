@@ -1,8 +1,10 @@
 # General purpose
 pipreqs
+pytest
 pandas
 numpy
 pandasql
+openpyxl
 PyYAML
 python-dotenv
 matplotlib

@@ -26,3 +26,5 @@ class Vista:
                 f"[{self.whoami}] Simulando el inicio de una petición al controlador: {datetime.datetime.now().isoformat()}"
             )
             self.controlador.main()
+
+        return "OK"
