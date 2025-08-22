@@ -3,6 +3,7 @@ pipreqs
 pandas
 numpy
 pandasql
+openpyxl
 PyYAML
 python-dotenv
 matplotlib
