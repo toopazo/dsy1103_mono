@@ -5,5 +5,8 @@
 
 from app.calculate import function_to_test
 
-def test_vista():
-    assert function_to_test(3,4) == 5
+def test_vista_1():
+    assert Vista().main() == "OK"
+
+def test_vista_2():
+    assert Vista().main() == "Not OK"
