@@ -5,6 +5,8 @@ package dsy1102;
 
 
 import dsy1102.ep1.Producto;
+
+// import java.util.Locale;
 import java.util.Scanner;
 
 public class App {
@@ -21,6 +23,8 @@ public class App {
     public static void run() {
         System.out.println("Running...");
         Scanner scanner = new Scanner(System.in);
+        // Locale spanish = Locale.forLanguageTag("es");
+        // Scanner scanner = new Scanner(System.in).useLocale(spanish);
 
         // Ask for product details
         System.out.print("Ingrese el nombre del producto: ");
@@ -55,45 +59,3 @@ public class App {
     }
 }
 
-
-// package dsy1102;
-
-// import dsy1102.ep1.Producto;
-// import java.util.Scanner;
-
-// public class App {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
-
-//         // Ask for product details
-//         System.out.print("Ingrese el nombre del producto: ");
-//         String nombre = scanner.nextLine();
-
-//         System.out.print("Ingrese el tipo del producto: ");
-//         String tipo = scanner.nextLine();
-
-//         System.out.print("Ingrese el precio del producto: ");
-//         double precio = scanner.nextDouble();
-
-//         System.out.print("Ingrese la cantidad a comprar: ");
-//         int cantidad = scanner.nextInt();
-
-//         // Create product and calculate total
-//         Producto producto = new Producto();
-//         producto.setNombre(nombre);
-//         producto.setTipo(tipo);
-//         producto.setPrecio(precio);
-
-//         double total = producto.getPrecio() * cantidad;
-
-//         // Show order summary
-//         System.out.println("\nResumen del pedido:");
-//         System.out.println("Producto: " + producto.getNombre());
-//         System.out.println("Tipo: " + producto.getTipo());
-//         System.out.println("Precio unitario: $" + producto.getPrecio());
-//         System.out.println("Cantidad: " + cantidad);
-//         System.out.println("Total a pagar: $" + total);
-
-//         scanner.close();
-//     }
-// }

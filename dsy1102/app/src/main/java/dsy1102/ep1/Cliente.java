@@ -6,4 +6,5 @@ public class Cliente {
     private String nombre;
     private int edad;
     private String fechaNacimiento;
+    
 }
